@@ -1,0 +1,6 @@
+cron:
+- description: timer-every-minutes
+  url: /tick
+  schedule: every 1 mins
+  timezone: Asia/Tokyo
+  target: timer-every-minutes
